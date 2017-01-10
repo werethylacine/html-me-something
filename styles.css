@@ -1,12 +1,11 @@
-
-
-img {
-  opacity: .5;
+main {
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 article {
   color: #ddd;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 2;
 }
 
 html body {
@@ -28,6 +27,10 @@ p {
   text-shadow: 3px 3px 5px #000;
 }
 
+#title_adjuster h1 {
+  font-family: 'Monoton', sans-serif;
+}
+
 #deadface {
   color: #EEE;
   padding: 40px;
@@ -37,6 +40,9 @@ p {
   background-color: #DDD;
   color: #555;
   border: 1px solid #EEE;
+  border-radius: 5px;
+  padding: 18px 0px 10px 10px;
+  margin: 5px 60px 0px 60px;
 }
 
 .beckett {
@@ -45,5 +51,19 @@ p {
 
 .jumbotron {
   background-color: #000;
-  background: url("https://media.giphy.com/media/26tPbLsr9oE72erjG/giphy.gif")
+  background: url("images/wavy_static.gif")
+}
+
+html a {
+  color: ##ffffb3;
+}
+
+html a:hover {
+  color: ##ffff66;
+  text-decoration: none;
+}
+
+html a:visited {
+  color: #ccffff;
+  text-decoration: none;
 }
