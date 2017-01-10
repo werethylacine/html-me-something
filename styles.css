@@ -1,0 +1,49 @@
+
+
+img {
+  opacity: .5;
+}
+
+article {
+  color: #ddd;
+  font-size: 14px;
+}
+
+html body {
+    background-color: rgba(0,0,0,1.00);
+}
+
+footer {
+  background-color: rgba(30, 30, 30, 1.00);
+  color: #AAA;
+  border-top: 1px solid #222;
+}
+
+p {
+  padding: 20px;
+}
+
+#title_adjuster {
+  color: #eee;
+  text-shadow: 3px 3px 5px #000;
+}
+
+#deadface {
+  color: #EEE;
+  padding: 40px;
+}
+
+#transcript {
+  background-color: #DDD;
+  color: #555;
+  border: 1px solid #EEE;
+}
+
+.beckett {
+  color: #000;
+}
+
+.jumbotron {
+  background-color: #000;
+  background: url("https://media.giphy.com/media/26tPbLsr9oE72erjG/giphy.gif")
+}
